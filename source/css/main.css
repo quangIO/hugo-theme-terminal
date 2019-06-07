@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap&subset=vietnamese');
 html {
   box-sizing: border-box;
 }
@@ -11,8 +12,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+  font-family: 'Roboto Mono', Ubuntu Mono, monospace;
   font-size: 1rem;
+  font-wight: 500;
   line-height: 1.54;
   background-color: color-mod(var(--accent) blend(#1D1E28 98%));
   color: var(--color);
