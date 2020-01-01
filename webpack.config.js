@@ -14,8 +14,12 @@ module.exports = {
     modules: ["source", "node_modules"],
   },
   entry: {
-    "main.js": [join("source", "js", "main.js"), join("source", "js", "menu.js")],
-    "prism.js": join("source", "js", "prism.js"),
+    "main.js": [
+      join("source", "js", "main.js"),
+      join("source", "js", "menu.js"),
+      join("source", "js", "languageSelector.js")
+    ],
+    // "prism.js": join("source", "js", "prism.js"),
     "style.css": join("source", "css", "style.css"),
     "red.css": join("source", "css", "color", "red.css"),
     "blue.css": join("source", "css", "color", "blue.css"),
